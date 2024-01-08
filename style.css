@@ -1,0 +1,31 @@
+:root {
+    --bg1: #2A2F3B;
+    --ch1: #6D7A8C;
+    --bg2: #1F2430;
+    --ch2: #CCCAC2;
+    --ch: #429EC3;
+    --jk: #4E9B82;
+    --ji: #D5FF80;
+
+    --xs: 4px;
+    --sm: 8px;
+    --md: 16px;
+    --lg: 24px;
+}
+.navContainer {
+    background-color: var(--bg2);
+    padding: var(--sm) var(--md);
+}
+.navTitle {
+    color: var(--ch2);
+    margin:0;
+}
+.u-textCenter {
+    text-align: center;
+}
+body{
+    margin:0;
+    background-color: var(--bg1);
+    color: var(--ch1);
+}
+
